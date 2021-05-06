@@ -33,7 +33,7 @@ const getRssXml = blogPosts => {
     <channel>
         <title>A cryptocurrency by Richard McSorley</title>
         <link>https://distracted.money</link>
-        <description>A coin of sorts.</description>
+        <description>The coin that distracts.</description>
         <language>en</language>
         <lastBuildDate>${latestPostDate}</lastBuildDate>
         ${rssItemsXml}

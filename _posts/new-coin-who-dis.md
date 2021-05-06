@@ -9,4 +9,4 @@ author:
 
 ## Introducing DISTRACTED (Distracted Boyfriend) Coin 
 
-The coin that you don't tell your girlfriend about.
+The coin that distracts.

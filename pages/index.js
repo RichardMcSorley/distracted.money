@@ -14,19 +14,22 @@ export default function Index({ allPosts }) {
             <Layout>
                 <Head>
                     <meta property="og:image" content="/ogimage.jpg" />
-                    <title>Distracted Boyfriend | A coin of sorts.</title>
+                    <title>Distracted Coin | The coin that distracts.</title>
                 </Head>
                 <Container>
                     <Header isHome={true} />
                     {heroPost && (
-                        <HeroPost
-                            title={heroPost.title}
-                            coverImage={heroPost.coverImage}
-                            date={heroPost.date}
-                            author={heroPost.author}
-                            slug={heroPost.slug}
-                            excerpt={heroPost.excerpt}
-                        />
+                        <>
+                            <HeroPost
+                                title={heroPost.title}
+                                coverImage={heroPost.coverImage}
+                                date={heroPost.date}
+                                author={heroPost.author}
+                                slug={heroPost.slug}
+                                excerpt={heroPost.excerpt}
+                            />
+                            
+                        </>
                     )}
                     {morePosts.length > 0 && <MoreStories posts={morePosts} />}
                 </Container>
